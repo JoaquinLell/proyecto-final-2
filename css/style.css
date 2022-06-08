@@ -4,9 +4,6 @@ footer {
     align-items: center;
     justify-content: space-around;
     width: 100%;
-    position: absolute;
-    bottom: 0;
-    left: 0;
 }
 
 footer div {
@@ -26,21 +23,27 @@ footer div a {
 }
 
 /*--------------------css para index----------------------- */
-.titMed{
+.main{
+    padding-bottom: 100px;
+}
+.titMed {
     background-color: beige;
     border-radius: 2rem;
-    border-bottom:solid 2rem;
+    border-bottom: solid 2rem;
     color: beige;
 }
-.titMed div{
+
+.titMed div {
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.div_2{
+
+.div_2 {
     display: flex;
     flex-direction: column;
 }
+
 .titMed img {
     margin-top: 30px;
     height: 200px;
@@ -54,11 +57,12 @@ footer div a {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: x-large;
     color: #000;
-    
 }
-.div__espacio{
+
+.div__espacio {
     padding: 20px;
 }
+
 .div_nav {
     display: flex;
     align-items: center;
@@ -69,22 +73,26 @@ footer div a {
 }
 
 /*-------------- css para ubicacion ----------------  */
-.headerUbi{
+.headerUbi {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-.headerUbi h2{
+
+.headerUbi h2 {
     margin-top: 70px;
 }
+
 .pasos__ubi ol li {
     font-size: large;
 }
-.headerUbi iframe{
+
+.headerUbi iframe {
     border-radius: 20px;
 }
+
 /* ------------------- css para contactos---------------- */
-.secCont{
+.secCont {
     padding: 100px 0px;
     display: flex;
     justify-content: center;
@@ -93,9 +101,35 @@ footer div a {
     background-color: beige;
     opacity: 80%;
 }
-.formCont{
+
+.formCont {
     display: flex;
     flex-direction: column;
     justify-content: center;
     padding-bottom: 30px;
+}
+.divCont button:hover{
+    background-color: beige;
+}
+
+@media only screen and (max-width: 700px) {
+    .titMed p {
+        display: none;
+    }
+
+    .titMed div {
+        display: flex;
+        flex-direction: column;
+    }
+
+    footer {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    iframe {
+        width:400px;
+        height:450px;
+    }
 }
