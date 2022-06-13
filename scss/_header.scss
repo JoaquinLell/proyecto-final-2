@@ -1,0 +1,32 @@
+.titMed {
+    background-color: beige;
+    border-radius: 2rem;
+    border-bottom: solid 2rem;
+    color: beige;
+}
+
+.titMed div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.div_2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.titMed img {
+    margin-top: 30px;
+    height: 200px;
+    width: 200px;
+    border-radius: 1rem;
+    opacity: 90%;
+}
+
+.titMed div {
+    margin-top: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: x-large;
+    color: #000;
+}
